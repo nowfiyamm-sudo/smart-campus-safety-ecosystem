@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Settings</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>Notification Settings</h2>
+
+<label><input type="checkbox" value="Security">Security</label>
+<label><input type="checkbox" value="Warden">Warden</label>
+<label><input type="checkbox" value="HOD">HOD</label>
+<label><input type="checkbox" value="Parent">Parent</label>
+
+<h2>Class Hours</h2>
+
+<label>Start Time</label>
+<input type="time" id="startTime">
+
+<label>End Time</label>
+<input type="time" id="endTime">
+
+<button onclick="saveSettings()">Save</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
